@@ -111,6 +111,52 @@ A [code sample in Python](https://gist.github.com/JessicaGarson/d08dcfe364e28c62
 
 
 
+### Google
+
+Google APIs use the OAuth 2.0 protocol for authentication and authorization. Google supports common OAuth 2.0 scenarios such as those for web server, client-side, installed, and limited-input device applications, read about "[Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)".
+
+This is how Google sees the protocol flow for web server applications.
+
+![Google OAuth flow](https://developers.google.com/identity/protocols/oauth2/images/flows/authorization-code.png)
+
+Google has some [client libraries](https://developers.google.com/identity/protocols/oauth2#libraries) that can be used when doing OAuth, they support for example Python, PHP, JavaScript. The client libraries comes with examples and documentation on how to use it.
+
+
+
+### Facebook
+
+Facebook supports "Facebook Login" which can be used without being reviewed, if we only access public profile and the email.
+
+Facebook Login is described here.
+
+* [Facebook Login Overview](https://developers.facebook.com/docs/facebook-login/overview)
+* [Facebook Login for the Web with the JavaScript SDK](https://developers.facebook.com/docs/facebook-login/web)
+
+One can also read about how to "[Manually Build a Login Flow](https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow)" using the basic OAuth flow.
+
+There is an article "[What You Need To Know About OAuth2 And Logging In With Facebook](https://www.smashingmagazine.com/2017/05/oauth2-logging-in-facebook/)" about the Facebook Login, it is written 2017 (unsure if it is still valid). The article also provides some general background of different authentication prior to OAuth2.
+
+
+
+Libraries
+----------------------
+
+OAuth has a [list of libraries](https://oauth.net/code/) that can be used to implement OAuth.
+
+On Packagist we can see the [most downloaded OAuth libraries for PHP](https://packagist.org/packages/league/oauth2-client?query=OAuth2).
+
+On NPM we can see the [most downloaded OAuth libraries for JavaScript](https://www.npmjs.com/search?q=oauth2).
+
+[Passport is an authentication solution](http://www.passportjs.org/) for Node and Express solutions.
+
+[Laravel (PHP) has a Passport implementation](https://laravel.com/docs/8.x/passport).
+
+> Laravel Passport provides a full OAuth2 server implementation for your Laravel application in a matter of minutes. Passport is built on top of the League OAuth2 server that is maintained by Andy Millington and Simon Hamp.
+
+Symfony (PHP) supports [several ways of authenticating users](https://symfony.com/doc/current/security.html#security-authenticators). This includes an external [module HWIOAuthBundle](https://github.com/hwi/HWIOAuthBundle) that implements OAuth.
+
+
+
 Related
 ----------------------
 
@@ -146,3 +192,10 @@ Considerations
 You should/need to use HTTPS for the redirection URL.
 
 You need to have the system running on a public server.
+
+What are we asking to get from the login provider?
+
+* Email
+* Profile data such as name?
+
+Should we use OAuth or OpenID/BankID and was is the implications?
