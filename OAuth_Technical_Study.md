@@ -28,7 +28,7 @@ A general description of OAuth can be found on [Wikipedia](https://en.wikipedia.
 
 An overview of the general frol of OAuth.
 
-(!https://upload.wikimedia.org/wikipedia/commons/7/72/Abstract-flow.png)[Abstract Flow of OAuth]
+![https://upload.wikimedia.org/wikipedia/commons/7/72/Abstract-flow.png](Abstract Flow of OAuth)
 
 History of versions.
 
@@ -100,7 +100,7 @@ The web application flow to authorize users for your app is:
 
 Twitter has a beta support for OAuth 2.0.
 
-(!https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/docs/OAuth.png.twimg.1920.png)[Twitter OAuth flow]
+![https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/docs/OAuth.png.twimg.1920.png](Twitter OAuth flow)
 
 How it works is laied out in the follwong articles.
 
@@ -121,7 +121,7 @@ Related
 
 The difference between OpenID and OAuth.
 
-(!https://upload.wikimedia.org/wikipedia/commons/3/32/OpenIDvs.Pseudo-AuthenticationusingOAuth.svg)[OpenId versus OAuth]
+![https://upload.wikimedia.org/wikipedia/commons/3/32/OpenIDvs.Pseudo-AuthenticationusingOAuth.svg](OpenId versus OAuth)
 
 
 
