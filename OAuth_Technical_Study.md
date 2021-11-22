@@ -102,10 +102,10 @@ Twitter has a beta support for OAuth 2.0.
 
 ![Twitter OAuth flow](https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/docs/OAuth.png.twimg.1920.png)
 
-How it works is laied out in the follwong articles.
+How it works is outlined in the follwong articles.
 
-* [BETA] OAuth 2.0 User Context](https://developer.twitter.com/en/docs/authentication/oauth-2-0/user-context)
-* [[BETA] OAuth 2.0 User Context - Making requests on behalf of users](https://developer.twitter.com/en/docs/authentication/oauth-2-0/user-context-making-requests-on-behalf-of-users)
+* [BETA OAuth 2.0 User Context](https://developer.twitter.com/en/docs/authentication/oauth-2-0/user-context)
+* [BETA OAuth 2.0 User Context - Making requests on behalf of users](https://developer.twitter.com/en/docs/authentication/oauth-2-0/user-context-making-requests-on-behalf-of-users)
 
 A [code sample in Python](https://gist.github.com/JessicaGarson/d08dcfe364e28c6249f3ab6ba9151185) for use with Twitter oAuth authentication.
 
